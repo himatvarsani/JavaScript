@@ -75,3 +75,11 @@ Argument - Actual value supplied to the parameter: John is an argument to the gr
 ```js
 greet ('John');
 ```
+
+### JS-Operators
+Different type of Operators:
+- Arithmetic
+- Assignment
+- Comparison
+- Logical
+- Bitwise

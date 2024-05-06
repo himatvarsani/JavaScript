@@ -83,3 +83,84 @@ Different type of Operators:
 - Comparison
 - Logical
 - Bitwise
+
+### JS-Control Flows
+Conditional Statements:
+- If...else
+- Switch...case
+
+#### If...else condition
+This is called a 'Block Statement'
+```js
+if (condition) {
+    statement
+}
+else if (anotherCondition) {
+    statement
+}
+else if (yetAnotherCondition) {
+    statement
+}
+else {
+    statement
+}
+```
+
+#### Switch...case
+each case will need a break;
+```js
+switch (variable) {
+    case 'guest':
+        console.log('Guest User');
+        break;
+
+    case 'moderator':
+        console.log('Moderator User');
+        break;
+    default:
+        console.log('Unknown User');
+}
+```
+
+Loops
+The difference between a for loop and a while loop is that the 'For' loop variable is declared within the condition, whereas the 'While' loop the variable is declared exeternal.
+- For
+- While
+- Do...while
+- For...in
+- For...of
+
+#### For Loops
+```js
+for (initialExpression; condition; incrementExpression)
+for(let i = 0; i < 5; i++){
+    statement
+}
+```
+
+#### While Loops
+```js
+let i = 0;
+while (condition) {
+    statement
+}
+```
+
+#### Do...While Loops
+```js
+let i = 0;
+do {
+    statement
+} while (condition)
+```
+#### For...in Loops
+To iterate over the property of an object
+
+#### For...of Loops 
+Iterate over the elements or items in an Arrays
+Ideal way when using **Arrays**
+```js
+const colors = ['red', 'green', 'blue'];
+for (let color of colors)
+    console.log(color);
+```
